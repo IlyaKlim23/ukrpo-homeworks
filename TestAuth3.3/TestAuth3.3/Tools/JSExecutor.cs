@@ -1,12 +1,12 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Support.Extensions;
 
-namespace TestAuth3._3.Helpers;
+namespace TestAuth3._3.Tools;
 
-public class JSExecutor
+public class JsExecutor
 {
     private readonly IWebDriver _driver;
-    public JSExecutor(IWebDriver driver)
+    public JsExecutor(IWebDriver driver)
     {
         _driver = driver;
     }

@@ -1,7 +1,7 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 
-namespace TestAuth3._3.Helpers;
+namespace TestAuth3._3.Tools;
 
 public class FluentWait
 {
